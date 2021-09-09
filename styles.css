@@ -1,0 +1,126 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+  
+  .pimg1{
+    background-image:url('./Images/india.jpg');
+    min-height:100%;
+  }
+  
+  .pimg2{
+    background-image:url('./Images/Agra.jpg');
+    min-height:400px;
+  }
+  
+  .pimg3{
+    background-image:url('./Images/goa.jpg');
+    min-height:400px;
+  }
+
+  .pimg4{
+    background-image:url('./Images/amritsar.jpg');
+    min-height:400px;
+  }
+  .pimg5{
+    background-image:url('./Images/shimla.jpg');
+    min-height:400px;
+  }
+  .pimg6{
+    background-image:url('./Images/ooty.jpg');
+    min-height:400px;
+  }
+  .pimg7{
+    background-image:url('./Images/alleppy.jpg');
+    min-height:400px;
+  }
+  .pimg8{
+    background-image:url('./Images/jaipur.jpg');
+    min-height:400px;
+  }
+  .pimg9{
+    background-image:url('./Images/ladakh.jpg');
+    min-height:400px;
+  }
+  .pimg10{
+    background-image:url('./Images/mysore.jpg');
+    min-height:400px;
+  }
+  .pimg11{
+    background-image:url('./Images/darjeeling.jpg');
+    min-height:400px;
+  }
+  
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#282e34;
+    color:#ddd;
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+  
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(0, 225, 255);
+  }
+  
+  a:hover{
+    color: rgb(0, 162, 255);
+  }
+  
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
